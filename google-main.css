@@ -1,0 +1,50 @@
+#first-div {
+    margin: 100px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#second-div {
+    margin: 0 100px;
+    padding: 0;
+    background-color: rgb(234, 231, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {margin: 0;}
+
+#third-div {
+    flex-direction: row;
+}
+
+[type="text"] {width: 300px;}
+
+#email::-webkit-input-placeholder {
+    color: black;
+}
+
+#forth-div {margin: 1px 100px;
+height: 76.4px;}
+
+.links {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+    font-size: 13px;
+    margin-right: 0.12%;
+    padding-top: 10px;
+}
+
+#fifth-div {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
